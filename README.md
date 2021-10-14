@@ -1,5 +1,7 @@
 # psta-web-user-tomcat-config
-custom tomcat external config
+custom tomcat external config to add `allowTrace` property in server.xml
+
+[cf official docs: container-tomcat](https://github.com/cloudfoundry/java-buildpack/blob/main/docs/container-tomcat.md#additional-resources)
 
 ### Additional Resources
 The container can also be configured by overlaying a set of resources on the default distribution.  To do this follow one of the options below.
